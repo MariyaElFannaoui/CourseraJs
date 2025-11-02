@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie de Photos Interactive</title>
+    <link rel="stylesheet" href="style.css"> <!-- Assurez-vous d'avoir un fichier style.css ou intégrez le CSS ici -->
+</head>
+<body>
+    <h1>Galerie de Photos</h1>
+
+    <div id="image">
+        Survolez une image ci-dessous pour l'afficher ici.
+    </div>
+
+    <div class="thumbnail-container">
+        <img class="preview" alt="Image 1 : Un chemin forestier" src="https://picsum.photos/id/10/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview" alt="Image 2 : Montagnes enneigées et lac" src="https://picsum.photos/id/1018/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview" alt="Image 3 : Une plage au coucher du soleil" src="https://picsum.photos/id/1041/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview" alt="Image 4 : Horizon de la ville la nuit" src="https://picsum.photos/id/1080/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview" alt="Image 5 : Champ de tournesols" src="https://picsum.photos/id/106/200/300" onmouseover="upDate(this)" onmouseout="unDo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
